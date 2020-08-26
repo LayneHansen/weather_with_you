@@ -19,7 +19,7 @@
             <div class="col-md-12">
 
                 <div class="card mb-3" id="title-card">
-                    <img src="https://via.placeholder.com/900x120" class="card-img-top" alt="...">
+                    <img src="./wwy.jpg" class="card-img-top" alt="...">
                 </div>
             
             </div>
@@ -32,6 +32,7 @@
 
                 <nav class="navbar navbar-dark bg-dark">
                     <a class="navbar-brand">Weather With You</a>
+                    <h3><span class="badge badge-dark" id="nav-time">New</span></h3>
                     <form class="form-inline">
                       <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="Search">
                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -52,9 +53,9 @@
                     <div class="card-body">
                       <h5 class="card-title" id="city-name"></h5>
                       <p><strong>Temperature:</strong><span class="card-text" id="temp"></span></p>
-                      <p><strong>Humidity:</strong><span class="card-text" id="temp"></span></p>
-                      <p><strong>Wind Speed:</strong><span class="card-text" id="temp"></span></p>
-                      <p><strong>UV Index:</strong><span class="card-text" id="temp"></span></p>
+                      <p><strong>Humidity:</strong><span class="card-text" id="humid"></span></p>
+                      <p><strong>Wind Speed:</strong><span class="card-text" id="wind"></span></p>
+                      <p><strong>UV Index:</strong><span class="card-text" id="uv"></span></p>
                       
                     </div>
                 </div>
@@ -139,7 +140,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="./moment.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="script.js"></script>

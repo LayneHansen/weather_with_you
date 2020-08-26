@@ -3,6 +3,8 @@
     background-color: rgb(48, 146, 146);
     color: white;
     margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #submit-button {
@@ -49,7 +51,8 @@
 }
 
 #navbar-row {
-    padding: 0;
+    padding-left: 0;
+    padding-right 0;
     border: solid 2px black;
 }
 
@@ -59,11 +62,13 @@
 }
 
 .col-md-12 {
-    padding: 0;
+    padding: none;
 }
-
-
 
 .list-group {
     margin: 0;
+}
+
+#nav-time {
+    color: rgb(192, 161, 197);
 }
