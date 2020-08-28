@@ -26,16 +26,16 @@
 
         </div>    
 
-        <div class="row row-no-padding" id="navbar-row">
+        <div class="row row-no-padding">
 
-            <div class="col-md-12">
+            <div class="col-md-12" id="navbar-row">
 
                 <nav class="navbar navbar-dark bg-dark">
                     <a class="navbar-brand">Weather With You</a>
                     <h3><span class="badge badge-dark" id="nav-time">New</span></h3>
                     <form class="form-inline">
-                      <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="Search">
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      <input class="form-control mr-sm-2" type="search" placeholder="City" aria-label="Search" id="search-window">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button">Search</button>
                     </form>
                 </nav>
 
@@ -66,42 +66,47 @@
 
                 <div class="card" id="forecast-card">
                     <div class="card-body">
-                      <h3 class="card-title" id="city-name">5-day Forecast</h3>
+                      <h5 class="card-title" id="5-day">5-day Forecast</h5>
                     </div>
 
                     <div class="card-group">
                         <div class="card" id="day-1">
                           <div class="card-body">
                             <h5 class="card-title"></h5>
-                            <p class="card-text"></p>
+                            <p class="card-text" id="day-1-temp">High Temp:</p>
+                            <p class="card-text" id="day-1-humid">Humidity:</p>
                           </div>
                         </div>
                         
                         <div class="card" id="day-2">
                           <div class="card-body">
-                            <h5 class="card-title"></h5></p>
-                            <p class="card-text"></p>
+                            <h5 class="card-title"></h5>
+                            <p class="card-text" id="day-2-temp">High Temp:</p>
+                            <p class="card-text" id="day-2-humid">Humidity:</p>
                           </div>
                         </div>
                         
                         <div class="card" id="day-3">
                           <div class="card-body">
                             <h5 class="card-title"></h5>
-                            <p class="card-text"></p>
+                            <p class="card-text" id="day-3-temp">High Temp:</p>
+                            <p class="card-text" id="day-3-humid">Humidity:</p>
                           </div>
                         </div>
                         
                         <div class="card" id="day-4">
                             <div class="card-body">
                               <h5 class="card-title"></h5>
-                              <p class="card-text"></p>
+                              <p class="card-text" id="day-4-temp">High Temp:</p>
+                              <p class="card-text" id="day-4-humid">Humidity:</p>
                             </div>
                         </div>
                         
                         <div class="card" id="day-5">
                             <div class="card-body">
                               <h5 class="card-title"></h5>
-                              <p class="card-text"></p>
+                              <p class="card-text" id="day-5-temp">High Temp:</p>
+                              <p class="card-text" id="day-5-humid">Humidity:</p>
                             </div>
                         </div>
                       

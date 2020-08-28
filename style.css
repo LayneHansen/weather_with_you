@@ -1,10 +1,11 @@
 #title-card {
     text-align: center;
-    background-color: rgb(48, 146, 146);
+    background-color: black;
     color: white;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+
 }
 
 #submit-button {
@@ -14,6 +15,8 @@
 
 #forecast-card {
     float: left;
+    text-align: center;
+    padding: 0;
 }
 
 .card-body {
@@ -52,12 +55,13 @@
 
 #navbar-row {
     padding-left: 0;
-    padding-right 0;
+    padding-right: 0;
     border: solid 2px black;
 }
 
 #title-row {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     border: solid 2px black;
 }
 
@@ -71,4 +75,17 @@
 
 #nav-time {
     color: rgb(192, 161, 197);
+}
+
+.card-text {
+    text-justify: auto;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-text {
+    font-size: 12px;
 }
