@@ -22,7 +22,8 @@
 .card-body {
     margin: 0;
     padding: 0;
-
+    background-color: rgb(157, 228, 175);
+    font-style: bold;
 }
 
 .row-no-padding {
@@ -51,6 +52,7 @@
 #data-container {
     padding: 0;
     border: solid 2px black;
+    background-color: rgb(68, 165, 133);
 }
 
 #navbar-row {
@@ -63,6 +65,7 @@
     padding-left: 0;
     padding-right: 0;
     border: solid 2px black;
+    background-color: black;
 }
 
 .col-md-12 {
@@ -74,7 +77,7 @@
 }
 
 #nav-time {
-    color: rgb(192, 161, 197);
+    color: rgb(68, 165, 133);
 }
 
 .card-text {
@@ -88,4 +91,14 @@
 
 .card-text {
     font-size: 12px;
+}
+
+#forecast-card {
+    padding: 5px;
+    background-color: rgb(68, 165, 133);
+    color: rgb(51, 50, 50);
+}
+
+#city-name {
+    font-style: italic;
 }
