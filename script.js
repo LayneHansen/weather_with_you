@@ -22,30 +22,34 @@ $("#search-button").on('click', function () {
     citySearch = $("#search-window").val();
     cityName.text(citySearch);
 
+// Condition to force user enter a city
 
 if (citySearch !== "") {
     searchCities(citySearch);
-
 } 
 
 })
+
+// Gets text from search window from local storage, prints it to search list
 
 var tempItem = localStorage.getItem("city search");
 console.log(tempItem);
 $("#search-1").text(tempItem);
 
+// Previously searched city becomes a clickable item
+
 $("#search-1").on("click", function (event) {
     var value = $("#search-1").text();
     searchCities(value);
-
 })
 
-
+// Runs program if there is an item in local storage
 
 if (tempItem) {
     searchCities(tempItem);
+}
 
-} 
+// global function to run search
 
 function searchCities(citySearch) {
     localStorage.setItem("city search", citySearch);
@@ -70,7 +74,7 @@ function searchCities(citySearch) {
 
 
 
-// FUNCTION FOR ONE CALL API
+// FUNCTION FOR ONE CALL API, pulls data from api and onto page
 
 
 function weatherData() {
