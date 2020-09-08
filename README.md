@@ -1,9 +1,5 @@
 # weather_with_you
 
-# day_planner
-
-### WORKDAY PLANNER
-
 ### PURPOSE
 
 The purpose of this application is to provide the user basic weather information (temperature, humidity, UV Index, wind speed) for any given city.
