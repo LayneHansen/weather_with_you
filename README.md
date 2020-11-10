@@ -12,7 +12,7 @@ The app is required to provide a search window, clickable button. Once the searc
 
 Below is a screenshot of the application.
 
-![Weather With You App Screenshot](./wwy_screenshot.png)
+![Weather With You App Screenshot](./assets/images/wwy_screenshot.png)
 
 ##### URL
 
